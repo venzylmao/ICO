@@ -46,7 +46,7 @@ while True:
         print(Fore.MAGENTA)
         
         if opt == "1":
-            auth = input("              Auth token: ")
+            auth = input("              Auth session: ")
             image = input("              Image link: ")
             print("")
             headers = {
@@ -63,7 +63,7 @@ while True:
                 input("")
         
         if opt == "2":
-            auth = input("              Auth token: ")
+            auth = input("              Auth session: ")
             image = input("              Image link: ")
             print("")
             headers = {
@@ -80,7 +80,7 @@ while True:
                 input("")
         
         if opt == "3":
-            auth = input("              Auth token: ")
+            auth = input("              Auth session: ")
             print("")
             headers = {
                 'Authorization': f'Bearer {auth}'
@@ -96,7 +96,7 @@ while True:
                 input("")
 
         if opt == "4":
-            auth = input("              Auth token: ")
+            auth = input("              Auth session: ")
             print("")
             headers = {
                 'Authorization': f'Bearer {auth}'
